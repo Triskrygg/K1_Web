@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  k1_web:
-    image: ${DOCKER_REGISTRY-}k1web
-    build:
-      context: .\K1_Web
-      dockerfile: Dockerfile
